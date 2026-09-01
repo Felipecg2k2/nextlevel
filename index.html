@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
     <title>NextLevel</title>
 </head>
 <body>
     <header>
-        <figure>
-            <img src="images/nl-logo-vetorizada.svg" class="logo">
-        </figure>
+        <img src="images/nl-logo-vetorizada.svg" alt='Logo NextLevel'>
         
         <h1>NextLevel</h1>
         <nav>
@@ -19,39 +21,85 @@
             <a href="#">Sobre</a>
             <a href="#">Contato</a>
             <button class="btn-matricule-se">Matricule-se</button>
-        </nav>
-        
+        </nav>        
     </header>
     <main>
         <!-- Seção  Home -->
         <section>
-            <h2>NextLevel - Escola de Técnologia</h1>
+            <h2>NextLevel - Escola de Técnologia</h2>
         </section>
 
         <!-- Seção  Cursos -->
         <section>
-            <h2>Nossos Cursos</h1>
+            <h2>Nossos Cursos</h2>
         </section>
 
         <!-- Seção  Sobre -->
         <section>
-            <h2>Nossos Professores</h1>
+            <h2>A instituição</h2>
+         
+            <h3>Nossos Professores</h3>
 
-            <h2>Projetos que você aprenderá</h1>
+            <h3>Projetos que você aprenderá</h3>
 
-            <h2>Nossos equipamentos</h1>
+            <h3>Nossos equipamentos</h3>
 
 
         </section>
 
         <!-- Seção Contato -->
-        <section>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
             <form>
-
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                <label for="curso">Curso de interesse</label>
+                <select id="curso" name="curso">
+                    <option value="web">Desenvolvimento Web</option>
+                    <option value="sistemas">Desenvolvimento de Sistemas</option>
+                    <option value="python">Python</option>
+                    <option value="dados">Banco de Dados</option>
+                    <option value="ia">Inteligência Artificial</option>
+                    <option value="games">Games</option>
+                </select>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
             </form>
         </section>
 
     </main>
-    <footer>NextLevel</footer>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-infos">
+                <h2>NextLevel</h2>
+                <p>Escola de Tecnologia.</p>
+                <p>Aprenda tecnologia. Transforme seu futuro.</p>
+                
+            </div>
+
+            <div class="footer-contatos">
+                <h3>Contatos</h3>
+                <p>(11) 99999-9999</p>
+                <p>contato@nextlevel.com.br</p>
+                <p>São Paulo - SP</p>
+            </div>
+
+            <div class="footer-redes">
+                <h3>Redes Sociais</h3>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-direitos">
+            <p>&copy; 2026 NextLevel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
