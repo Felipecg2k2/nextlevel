@@ -11,6 +11,7 @@
     <title>NextLevel</title>
 </head>
 <body>
+    <!-- Header / Cabeçalho -->
     <header>
         <img src="images/nl-logo-vetorizada.svg" alt='Logo NextLevel'>
         
@@ -49,37 +50,48 @@
 
         <!-- Seção Contato -->
         <section id="contato">
-            <h2>Entre em Contato</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu email">
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
-                <label for="curso">Curso de interesse</label>
-                <select id="curso" name="curso">
-                    <option value="web">Desenvolvimento Web</option>
-                    <option value="sistemas">Desenvolvimento de Sistemas</option>
-                    <option value="python">Python</option>
-                    <option value="dados">Banco de Dados</option>
-                    <option value="ia">Inteligência Artificial</option>
-                    <option value="games">Games</option>
-                </select>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+            <div class="contato-conteudo">
+                <h2>Entre em Contato</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                    <label for="curso">Curso de interesse</label>
+                    <select id="curso" name="curso">
+                        <option value="web">Desenvolvimento Web</option>
+                        <option value="sistemas">Desenvolvimento de Sistemas</option>
+                        <option value="python">Python</option>
+                        <option value="dados">Banco de Dados</option>
+                        <option value="ia">Inteligência Artificial</option>
+                        <option value="games">Games</option>
+                    </select>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
-
     </main>
+    <!-- Footer / Rodapé -->
     <footer>
         <div class="footer-container">
             <div class="footer-infos">
                 <h2>NextLevel</h2>
                 <p>Escola de Tecnologia.</p>
                 <p>Aprenda tecnologia. Transforme seu futuro.</p>
-                
+            </div>
+
+            <div class="footer-navegacao">
+                <h3>Navegação</h3>
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#cursos">Cursos</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </nav>
             </div>
 
             <div class="footer-contatos">
@@ -96,7 +108,6 @@
                 <a href="#">Facebook</a>
             </div>
         </div>
-        <hr>
         <div class="footer-direitos">
             <p>&copy; 2026 NextLevel. Todos os direitos reservados.</p>
         </div>

@@ -1,9 +1,25 @@
 /* Main */
-main {
-    padding-left: 10px;
+
+/* Formulário Para Contato */
+
+/* Configurações gerais da seção de contato */
+#contato {
+    background-image: url("../images/img-form.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-/* Formulário */
+.contato-conteudo {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+/* Configurações gerais do formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -11,3 +27,36 @@ form {
     max-width: 400px;
     margin: 0;
 }
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+form textarea {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form select {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+

@@ -19,14 +19,15 @@ header img {
 }
 
 /* Links de Navegação */
-nav {
+header nav {
     display: flex;
     gap: 20px;
 }
 
 /* Texto dos Links */
-nav a {
+header nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    color: #000;
 }
