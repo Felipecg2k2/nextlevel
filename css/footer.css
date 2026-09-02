@@ -1,4 +1,6 @@
 /* Footer / Rodapé */
+
+/* Configurações gerais */
 footer {
     border-top: 3px solid #000;
     background-color: #0f172a;
@@ -42,10 +44,6 @@ footer nav {
     padding-bottom: 15px;
 }
 
-.footer-infos{
-
-}
-
 .footer-navegacao{
     display: flex;
     flex-direction: column;
@@ -67,4 +65,18 @@ footer nav {
     border-top: #ffffff solid 1px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footer-redes {
+        padding-right: 0;
+    }
+
 }

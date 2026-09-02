@@ -1,176 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/footer.css">
-
+    <!-- link de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>NextLevel</title>
 </head>
-
 <body>
 
     <!-- Header / Cabeçalho -->
-
     <header>
-
         <img src="images/nl-logo-vetorizada.svg" alt="Logo NextLevel">
-
         <h1>NextLevel</h1>
-
         <nav>
             <a href="#hero">Home</a>
             <a href="#cursos">Cursos</a>
             <a href="#sobre">Sobre</a>
             <a href="#contato">Contato</a>
-
             <button class="btn-matricule-se">
                 Matricule-se
             </button>
         </nav>
-
     </header>
-
 
     <main>
 
         <!-- Seção Hero -->
-
         <section id="hero">
             <div class="hero-conteudo">
                 <h1>Aprenda, crie e evolua.</h1>
-
                 <p>
                     Desenvolva suas habilidades em tecnologia
                     e prepare-se para os desafios do futuro.
                 </p>
-
                 <a href="#cursos" class="hero-btn">Conheça nossos cursos</a>
             </div>
-
             <div class="hero-imagem">
                 <img src="../images/img-hero.png" alt="Ilustração sobre tecnologia">
             </div>
         </section>
 
-
         <!-- Seção Cursos -->
-
         <section id="cursos">
-
             <h2>Nossos Cursos</h2>
-
             <div class="cursos-container">
-
                 <article class="curso-card">
-
                     <img
-                        src="images/curso-programacao.jpg"
+                        src="images/img-programacao.jpg"
                         alt="Aluno estudando programação"
                     >
-
-                    <h3>Programação</h3>
-
-                    <p>
-                        Aprenda a desenvolver sistemas e aplicações
-                        utilizando tecnologias modernas.
-                    </p>
-
-                    <a href="#">Saiba mais</a>
-
+                    <div class="curso-conteudo">
+                        <h3>Programação</h3>
+                        <p>
+                            Aprenda a desenvolver sistemas e aplicações
+                            utilizando tecnologias modernas.
+                        </p>
+                        <a href="#contato">Saiba mais</a>
+                    </div>
                 </article>
-
-
                 <article class="curso-card">
-
                     <img
-                        src="images/curso-hardware.jpg"
+                        src="images/img-hardware.jpg"
                         alt="Computador utilizado para estudos de hardware"
                     >
-
-                    <h3>Hardware</h3>
-
-                    <p>
-                        Conheça computadores, componentes e tecnologias
-                        utilizadas na montagem e manutenção de equipamentos.
-                    </p>
-
-                    <a href="#">Saiba mais</a>
-
+                    <div class="curso-conteudo">
+                        <h3>Hardware</h3>
+                        <p>
+                            Conheça computadores, componentes e tecnologias
+                            utilizadas na montagem e manutenção de equipamentos.
+                        </p>
+                        <a href="#contato">Saiba mais</a>
+                    </div>
                 </article>
-
-
                 <article class="curso-card">
-
                     <img
-                        src="images/curso-design.jpg"
+                        src="images/img-design.jpg"
                         alt="Projeto de design sendo desenvolvido"
                     >
-
-                    <h3>Design</h3>
-
-                    <p>
-                        Desenvolva sua criatividade e aprenda a criar
-                        projetos visuais para diferentes mídias.
-                    </p>
-
-                    <a href="#">Saiba mais</a>
-
+                    <div class="curso-conteudo">
+                        <h3>Design</h3>
+                        <p>
+                            Desenvolva sua criatividade e aprenda a criar
+                            projetos visuais para diferentes mídias.
+                        </p>
+                        <a href="#contato">Saiba mais</a>
+                    </div>
                 </article>
-
             </div>
-
         </section>
-
 
         <!-- Seção Sobre a Instituição -->
-
         <section id="sobre">
-
-            <div class="sobre-imagem">
-
-                <img
-                    src="images/img-sobre.jpg"
-                    alt="Alunos estudando na NextLevel"
-                >
-
+            <h2>Sobre Nós</h2>
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="images/img-sobre.jpg" alt="Estudantes aprendendo tecnologia">
+                </div>
+                <div class="sobre-conteudo">
+                    <h3>A instituição</h3>
+                    <p>
+                        A NextLevel é uma instituição de ensino voltada para
+                        a formação de novos profissionais na área de tecnologia.
+                    </p>
+                    <p>
+                        Nossa proposta é oferecer conhecimento teórico e
+                        atividades práticas para preparar nossos alunos
+                        para os desafios do mercado.
+                    </p>
+                    <p>
+                        Aqui, os alunos desenvolvem projetos, aprendem novas
+                        tecnologias e se preparam para construir um futuro
+                        profissional.
+                    </p>
+                </div>
             </div>
-
-
-            <div class="sobre-conteudo">
-
-                <h2>Sobre Nós</h2>
-
-                <p>
-                    A NextLevel é uma instituição de ensino voltada
-                    para a formação de novos profissionais na área
-                    de tecnologia.
-                </p>
-
-                <p>
-                    Nossa proposta combina conhecimento teórico
-                    e atividades práticas para proporcionar uma
-                    experiência de aprendizado completa.
-                </p>
-
-                <p>
-                    Aqui, os alunos desenvolvem projetos, aprendem
-                    novas tecnologias e se preparam para os desafios
-                    do mercado de trabalho.
-                </p>
-
-            </div>
-
         </section>
 
-
         <!-- Seção Diferenciais -->
-
         <section id="diferenciais">
 
             <h2>Por que escolher a NextLevel?</h2>
@@ -178,121 +131,77 @@
             <div class="diferenciais-container">
 
                 <article class="diferencial">
-
                     <h3>Professores experientes</h3>
-
                     <p>
-                        Aprenda com profissionais que possuem
-                        experiência e conhecimento do mercado.
+                        Aprenda com profissionais que possuem experiência
+                        e conhecimento do mercado.
                     </p>
-
                 </article>
 
-
                 <article class="diferencial">
-
                     <h3>Aprendizado por projetos</h3>
-
                     <p>
-                        Coloque seus conhecimentos em prática
-                        desenvolvendo projetos reais.
+                        Coloque seus conhecimentos em prática desenvolvendo
+                        projetos reais.
                     </p>
-
                 </article>
 
-
                 <article class="diferencial">
-
                     <h3>Laboratórios modernos</h3>
-
                     <p>
-                        Tenha acesso a ambientes preparados para
-                        uma experiência prática de aprendizado.
+                        Tenha acesso a ambientes preparados para uma
+                        experiência prática de aprendizagem.
                     </p>
-
                 </article>
 
-
                 <article class="diferencial">
-
                     <h3>Foco no mercado</h3>
-
                     <p>
-                        Desenvolva habilidades importantes para
-                        sua carreira profissional.
+                        Desenvolva habilidades importantes para sua
+                        carreira profissional.
                     </p>
-
                 </article>
 
             </div>
 
         </section>
 
-
         <!-- Seção Depoimentos -->
-
         <section id="depoimentos">
-
             <h2>Depoimentos de alunos</h2>
-
             <div class="depoimentos">
-
                 <article class="depoimentos-cards">
-
                     <blockquote>
                         "A NextLevel me proporcionou uma experiência
                         incrível de aprendizado..."
                     </blockquote>
-
                     <cite>João Silva</cite>
-
                     <p>Design</p>
-
                 </article>
-
-
                 <article class="depoimentos-cards">
-
                     <blockquote>
                         "Os projetos práticos que desenvolvi na
                         NextLevel me ajudaram..."
                     </blockquote>
-
                     <cite>Maria Oliveira</cite>
-
                     <p>Hardware</p>
-
                 </article>
-
-
                 <article class="depoimentos-cards">
-
                     <blockquote>
                         "Recomendo a NextLevel para todos que desejam
                         se destacar..."
                     </blockquote>
-
                     <cite>Carlos Santos</cite>
-
                     <p>Programação</p>
-
                 </article>
-
             </div>
-
         </section>
 
-
         <!-- Seção Contato -->
-
         <section id="contato">
-
             <div class="contato-conteudo">
-
                 <h2>Entre em contato conosco</h2>
-
                 <form>
-
                     <label for="nome">Nome:</label>
                     <input
                         type="text"
@@ -300,8 +209,6 @@
                         name="nome"
                         placeholder="Digite seu nome"
                     >
-
-
                     <label for="email">Email:</label>
                     <input
                         type="email"
@@ -309,8 +216,6 @@
                         name="email"
                         placeholder="Digite seu email"
                     >
-
-
                     <label for="telefone">Telefone:</label>
                     <input
                         type="tel"
@@ -318,132 +223,82 @@
                         name="telefone"
                         placeholder="Digite seu telefone"
                     >
-
-
                     <label for="curso">
                         Curso de interesse
                     </label>
-
                     <select id="curso" name="curso">
-
                         <option value="web">
                             Desenvolvimento Web
                         </option>
-
                         <option value="sistemas">
                             Desenvolvimento de Sistemas
                         </option>
-
                         <option value="python">
                             Python
                         </option>
-
-                        <option value="dados">
-                            Banco de Dados
+                        <option value="hardware">
+                            Hardware
                         </option>
-
-                        <option value="ia">
-                            Inteligência Artificial
+                        <option value="design">
+                            Design
                         </option>
-
                         <option value="games">
                             Games
                         </option>
-
                     </select>
-
-
                     <label for="mensagem">
                         Mensagem:
                     </label>
-
                     <textarea
                         id="mensagem"
                         name="mensagem"
                         placeholder="Digite sua mensagem"
                     ></textarea>
-
-
                     <button type="submit">
                         Enviar
                     </button>
-
                 </form>
-
             </div>
-
         </section>
-
     </main>
 
-
     <!-- Footer / Rodapé -->
-
     <footer>
-
         <div class="footer-container">
-
             <div class="footer-infos">
-
                 <h2>NextLevel</h2>
-
                 <p>Escola de Tecnologia.</p>
-
                 <p>
                     Aprenda tecnologia. Transforme seu futuro.
                 </p>
-
             </div>
-
-
             <div class="footer-navegacao">
-
                 <h3>Navegação</h3>
-
                 <nav class="footer-nav">
-
                     <a href="#hero">Home</a>
                     <a href="#cursos">Cursos</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#contato">Contato</a>
-
                 </nav>
-
             </div>
-
-
             <div class="footer-contatos">
-
                 <h3>Contatos</h3>
-
                 <p>(11) 99999-9999</p>
                 <p>contato@nextlevel.com.br</p>
                 <p>São Paulo - SP</p>
-
             </div>
-
-
             <div class="footer-redes">
-
                 <h3>Redes Sociais</h3>
-
                 <a href="#">Instagram</a>
                 <a href="#">LinkedIn</a>
                 <a href="#">Facebook</a>
-
             </div>
-
         </div>
-
-
         <div class="footer-direitos">
-
             <p>
                 &copy; 2026 NextLevel. Todos os direitos reservados.
             </p>
-
         </div>
-
     </footer>
 
 </body>
