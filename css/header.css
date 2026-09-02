@@ -1,15 +1,10 @@
-
 /* Header / Cabeçalho */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 20px;
-    border: 5px solid #000;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
+    border-bottom: 5px solid #000;
     background-color: #e5e9eb;
 }
 
@@ -21,6 +16,7 @@ header img {
 /* Links de Navegação */
 header nav {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -30,4 +26,14 @@ header nav a {
     font-weight: bold;
     font-size: 20px;
     color: #000;
+}
+
+/* Botão de Matricula */
+header button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

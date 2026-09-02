@@ -1,4 +1,104 @@
-/* Main */
+/* Hero */
+
+/* Configurações gerais da seção hero */
+#hero {
+    min-height: 500px;
+    padding: 60px;
+    background-color: #071a33;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-conteudo {
+    max-width: 550px;
+    color: #ffffff;
+}
+
+.hero-conteudo h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.hero-conteudo p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    margin-left: 175px;
+    background-color: #2196f3;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.hero-btn:hover {
+    background-color: #1976d2;
+}
+
+.hero-imagem img {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+}
+
+
+/* Sobre */
+
+/* Depoimentos */
+#depoimentos {
+    background-color: antiquewhite;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.depoimentos-cards{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    gap: 25px;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15)
+    /* box-shadow: deslocamento-horizontal deslocamento-vertical desfoque cor; 
+                                ↑                ↑                  ↑      ↑
+                                X               Y                  blur    cor 
+    */
+}
+
+#depoimentos h2, p {
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.depoimentos-cards blockquote {
+    /* texto do depoimento */
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.depoimentos-cards cite {
+    /* nome */
+    justify-content: center;
+    text-align: center;
+}
+
+.depoimentos-cards small {
+    /* curso/área */
+    justify-content: center;
+    text-align: center;
+}
 
 /* Formulário Para Contato */
 
@@ -10,6 +110,7 @@
 }
 
 .contato-conteudo {
+    margin-left: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     padding-top: 5px;
     padding-bottom: 20px;
